@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Inquérito de Especialidade</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Login</h1>
+        <form id="loginForm">
+            <label for="numero_estudante">Número do Estudante:</label>
+            <input type="text" id="numero_estudante" name="numero_estudante" required>
+
+            <label for="n_bi">Número do BI (Senha):</label>
+            <input type="password" id="n_bi" name="n_bi" required>
+
+            <button type="submit">Entrar</button>
+        </form>
+        <p id="errorMessage" class="error"></p>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
